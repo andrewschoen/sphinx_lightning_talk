@@ -29,6 +29,15 @@ After this has completed, run the ``sphinx-quickstart`` command.
 sphinx-quickstart
 =================
 
+Run this command first to setup the project with reasonable defaults::
+
+    $ sphinx-quickstart
+
+All of the defaults should be fine.  I usually make sure to install the 
+autodoc extension if I'm documenting code.  It's not installed by default.
+
+After this completes, you're ready to start writing your docs! 
+
 reStructuredText
 ================
 
