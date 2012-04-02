@@ -41,8 +41,34 @@ After this completes, you're ready to start writing your docs!
 reStructuredText
 ================
 
+Sphinx uses reStructedText for the content of your docs.  It's a bigger topic
+than what I can cover here, but check out this primer on .rst
+
+http://sphinx.pocoo.org/rest.html
+
+Structuring your Docs
+=====================
+
+The root of your docs is the index.rst file (if you accepted the default 
+from ``sphinx-quickstart``)
+
+Here, you'll define the table of contents for your docs.  Linking to other
+.rst files to create the structure.
+
+::
+
+    .. toctree::
+       :maxdepth: 2
+
+       intro
+       tutorial
+       examples/first_example
+       examples/second_example
+
 Building your Docs
 ==================
+
+
 
 readthedocs.org integration
 ===========================
