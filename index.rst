@@ -55,6 +55,9 @@ from ``sphinx-quickstart``)
 Here, you'll define the table of contents for your docs.  Linking to other
 .rst files to create the structure.
 
+Example toctree
+===============
+
 ::
 
     .. toctree::
@@ -68,6 +71,18 @@ Here, you'll define the table of contents for your docs.  Linking to other
 Building your Docs
 ==================
 
+Once you have your docs written us this command to build them out.  Sphinx
+supports multiple output formats (html, epub, pdf, latex), but this one is for html.
+
+::
+
+    $ sphinx-build -b html . _build/html
+
+Or, if you used ``sphinx-quickstart`` it created a shortcut for you.
+
+::
+
+    $ make html
 
 
 readthedocs.org integration
