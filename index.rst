@@ -71,7 +71,7 @@ Example toctree
 Building your Docs
 ==================
 
-Once you have your docs written us this command to build them out.  Sphinx
+Once you have your docs written use this command to build them out.  Sphinx
 supports multiple output formats (html, epub, pdf, latex), but this one is for html.
 
 ::
@@ -91,7 +91,50 @@ readthedocs.org
 Read the Docs hosts documentation for the open source community.  Created by 
 Eric Holscher, Charles Leifer and Bobby Grace for the 2010 Django Dash.
 
+You write the docs and then hook them into Read the Docs for hosting.
+
 Use it, it's awesome.
 
 readthedocs.org integration
 ===========================
+
+It's easy, just follow these steps.
+
+* Put your project on github.com or somewhere readthedocs.org can get to it.
+* Sign up for readthedocs.org
+* Import your project
+* Done!
+
+Importing your project
+======================
+
+Once you have your readthedocs.org account setup, go to your dashboard and 
+click the import button.
+
+.. image:: images/rtd_import_btn.png
+
+Fill out the import form, naming the project and providing a link to the source
+and click the ``Create`` button.
+
+Your docs are now building!  Once it's done, you'll get a link to your docs.
+
+github.com integration
+======================
+
+It's easy to setup a webhook for github to update your docs on
+every push to github.
+
+* Go to the “admin” page for your project
+* Click “Service Hooks”
+* In the available service hooks, click “ReadTheDocs”
+* Check “Active”
+* Click “Update Settings”
+
+Thanks!
+-------
+
+.. image:: images/meme.png
+
+https://github.com/andrewschoen/sphinx_lightning_talk
+
+
