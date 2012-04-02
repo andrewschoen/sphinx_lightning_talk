@@ -76,7 +76,7 @@ supports multiple output formats (html, epub, pdf, latex), but this one is for h
 
 ::
 
-    $ sphinx-build -b html . _build/html
+    $ sphinx-build -b html sourcedir builddir
 
 Or, if you used ``sphinx-quickstart`` it created a shortcut for you.
 
@@ -84,6 +84,14 @@ Or, if you used ``sphinx-quickstart`` it created a shortcut for you.
 
     $ make html
 
+
+readthedocs.org
+===============
+
+Read the Docs hosts documentation for the open source community.  Created by 
+Eric Holscher, Charles Leifer and Bobby Grace for the 2010 Django Dash.
+
+Use it, it's awesome.
 
 readthedocs.org integration
 ===========================
