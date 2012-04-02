@@ -10,6 +10,12 @@ Writing docs with Sphinx & readthedocs.org
 What is Sphinx?
 ===============
 
+``Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license.``
+
+The main Python stdlib docs are written in Sphinx as well as other numerous Python projects.
+
+http://sphinx.pocoo.org/index.html
+
 Setting up a Sphinx Project
 ===========================
 
