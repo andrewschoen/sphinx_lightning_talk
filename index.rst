@@ -19,6 +19,13 @@ http://sphinx.pocoo.org/index.html
 Setting up a Sphinx Project
 ===========================
 
+Sphinx is very easy to setup.  Make an empty project directory, make a
+virtualenv and then install Sphinx into it::
+
+    $ pip install Sphinx==1.1.3
+
+After this has completed, run the ``sphinx-quickstart`` command.
+
 sphinx-quickstart
 =================
 
